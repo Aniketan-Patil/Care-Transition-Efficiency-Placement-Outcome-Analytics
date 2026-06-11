@@ -1,4 +1,19 @@
 Care Transition Efficiency & Placement Outcome Analytics
+
+## 🌐 Live Demo
+
+**Streamlit Application:**
+
+https://care-transition-efficiency-placement-outcome-analytics-aniketan.streamlit.app/
+
+---
+
+## 📄 Research Publication
+
+**Zenodo DOI:**
+
+https://zenodo.org/records/20640012
+
 Overview
 
 Care Transition Efficiency & Placement Outcome Analytics is a data analytics and machine learning project designed to evaluate the operational efficiency of the Unaccompanied Alien Children (UAC) care pipeline. The project transforms raw operational data into actionable insights through KPI engineering, bottleneck detection, forecasting, and interactive visualizations.
