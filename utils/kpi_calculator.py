@@ -40,11 +40,11 @@ def calculate_kpis(df):
 )
 
     # Backlog Accumulation Rate
-
-    df["Backlog_Rate"] = (
+    df["Backlog_Rate"] = np.maximum(
         df["CBP_Apprehended"]
-        - df["HHS_Discharged"]
-    )
+        - df["HHS_Discharged"],
+        0
+)
 
     # Outcome Stability Score
 
